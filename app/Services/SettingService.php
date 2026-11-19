@@ -10,10 +10,10 @@ class SettingService
 {
     /** @var array<string, mixed> */
     public const DEFAULTS = [
-        'store_name' => 'Sweet Spot Coffee',
+        'store_name' => 'Kopi POS   ',
         'store_address' => 'Jl. Kopi No. 12, Jakarta Selatan',
         'store_phone' => '021-1234-5678',
-        'store_email' => 'halo@sweetspotcoffee.test',
+        'store_email' => 'admin@toko.com',
         'receipt_header' => 'Terima kasih telah berbelanja',
         'receipt_footer' => 'Simpan struk ini sebagai bukti pembayaran',
         'logo_url' => null,

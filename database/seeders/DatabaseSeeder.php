@@ -17,12 +17,8 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         $admin = User::query()->updateOrCreate(
-            ['email' => 'admin@sweetspot.test'],
-            ['name' => 'Admin Sweet Spot', 'role' => 'admin', 'password' => Hash::make('password')],
-        );
-        $cashier = User::query()->updateOrCreate(
-            ['email' => 'kasir@sweetspot.test'],
-            ['name' => 'Kasir Satu', 'role' => 'kasir', 'password' => Hash::make('password')],
+            ['email' => 'admin@toko.com'],
+            ['name' => 'Admin', 'role' => 'admin', 'password' => Hash::make('password')],
         );
 
         foreach (SettingService::DEFAULTS as $key => $value) {

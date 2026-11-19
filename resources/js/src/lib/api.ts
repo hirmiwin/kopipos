@@ -1,6 +1,6 @@
 import axios, { AxiosError, type InternalAxiosRequestConfig } from 'axios';
 
-const TOKEN_KEY = 'sweetspot.token';
+const TOKEN_KEY = 'kopipos.token';
 
 export const tokenStore = {
   get: () => localStorage.getItem(TOKEN_KEY),

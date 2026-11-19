@@ -20,7 +20,7 @@ import { useAuth } from '../lib/auth';
 import { useBrandSettings } from '../lib/queries';
 
 const MOBILE_QUERY = '(max-width: 820px)';
-const COLLAPSE_KEY = 'sweetspot:sidebar-collapsed';
+const COLLAPSE_KEY = 'kopipos:sidebar-collapsed';
 
 const TITLES: Record<string, string> = {
   '/': 'Dashboard',
